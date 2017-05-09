@@ -1,0 +1,33 @@
+﻿@model GPUTest2.Models.Data
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Data</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.fps)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fps)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.stuff)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stuff)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
