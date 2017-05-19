@@ -76,3 +76,4 @@ c:\users\pebbles\documents\visual studio 2017\Projects\GPUTest2\GPUTest2\bin\Sys
 c:\users\pebbles\documents\visual studio 2017\Projects\GPUTest2\GPUTest2\bin\System.Web.Http.WebHost.xml
 C:\Users\Pebbles\documents\visual studio 2017\Projects\GPUTest2\GPUTest2\obj\Debug\GPUTest2.Migrations.InitialCreate.resources
 C:\Users\Pebbles\documents\visual studio 2017\Projects\GPUTest2\GPUTest2\obj\Debug\GPUTest2.csproj.GenerateResource.Cache
+C:\Users\Pebbles\documents\visual studio 2017\Projects\GPUTest2\GPUTest2\obj\Debug\GPUTest2.csprojResolveAssemblyReference.cache

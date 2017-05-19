@@ -183,9 +183,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\GPUtest - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\GPUTest220170508095517 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\WhatTheHack - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\GPUTest1537 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Test153 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\whatthehack - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\whatthehack - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="DataContext-Web.config Connection String" description="DataContext Connection String used in web.config by the application to access the database." defaultValue="DataContext_ConnectionString" tags="SqlConnectionString">
+  <parameter name="DataContext-Web.config Connection String" description="DataContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Test153.mdf;Initial Catalog=Test153;Integrated Security=True" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Pebbles\\documents\\visual\ studio\ 2017\\Projects\\GPUTest2\\GPUTest2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DataContext']/@connectionString" />
-  </parameter>
-  <parameter name="DataContext_DatabasePublish-Web.config Connection String" description="DataContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="DataContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Pebbles\\documents\\visual\ studio\ 2017\\Projects\\GPUTest2\\GPUTest2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DataContext_DatabasePublish']/@connectionString" />
   </parameter>
 </parameters>
