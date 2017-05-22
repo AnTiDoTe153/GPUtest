@@ -1,8 +1,24 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #036564;
+    color: white;
+    font-family: 'CabinCondensed-Bold';
+}
+@font-face {
+    font-family: 'PT_Sans-Narrow-Web-Bold';
+    src: url('~/Content/Fonts/PT_Sans-Narrow-Web-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'KumarOne-Regular';
+    src: url('~/Content/Fonts/KumarOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'CabinCondensed-Bold';
+    src: url('~/Content/Fonts/CabinCondensed-Bold.ttf') format('truetype');
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -21,4 +37,17 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+ a {
+    color: white;
+}
+
+ a:hover {
+     color: white;
+     text-decoration: none;
+ }
+
+ a:visited {
+    color: white;
 }

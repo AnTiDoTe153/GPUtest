@@ -163,17 +163,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201705081804394_InitialCreate.cs" />
-    <Compile Include="Migrations\201705081804394_InitialCreate.Designer.cs">
-      <DependentUpon>201705081804394_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Data.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\comp.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -183,10 +179,14 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="Properties\PublishProfiles\GPUTest1537 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\Test153 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\whatthehack - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\whatthehack - Web Deploy.pubxml" />
+    <Content Include="Content\Fonts\CabinCondensed-Bold.ttf" />
+    <Content Include="Content\Fonts\CabinCondensed-Medium.ttf" />
+    <Content Include="Content\Fonts\CabinCondensed-Regular.ttf" />
+    <Content Include="Content\Fonts\CabinCondensed-SemiBold.ttf" />
+    <Content Include="Content\Fonts\KumarOne-Regular.ttf" />
+    <Content Include="Content\Fonts\PT_Sans-Narrow-Web-Bold.ttf" />
+    <Content Include="Content\Fonts\PT_Sans-Narrow-Web-Regular.ttf" />
+    <None Include="Properties\PublishProfiles\Qubtiply - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -212,12 +212,10 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Data\Create.cshtml" />
-    <Content Include="Views\Data\Delete.cshtml" />
     <Content Include="Views\Data\Details.cshtml" />
     <Content Include="Views\Data\Index.cshtml" />
+    <Content Include="Views\Home\Help.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -236,11 +234,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201705081804394_InitialCreate.resx">
-      <DependentUpon>201705081804394_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

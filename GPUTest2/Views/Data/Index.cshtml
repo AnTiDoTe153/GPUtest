@@ -9,10 +9,13 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.fps)
+            Id
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.stuff)
+            @Html.DisplayNameFor(model => model.Score)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Specifications)
         </th>
         <th></th>
     </tr>
@@ -20,10 +23,13 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.fps)
+            @Html.DisplayFor(modelItem => item.UniqueId)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.stuff)
+            @Html.DisplayFor(modelItem => item.Score)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Specifications)
         </td>
         <td>
             @Html.ActionLink("Details", "Details", new { id=item.DataID })

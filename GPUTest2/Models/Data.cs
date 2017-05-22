@@ -9,8 +9,9 @@ namespace GPUTest2.Models
     {
         public int DataID { get; set; }
 
-        public int fps { get; set; }
-        public string stuff { get; set; }
+        public int UniqueId { get; set; }
+        public int Score { get; set; }
+        public string Specifications { get; set; }
 
     }
 }

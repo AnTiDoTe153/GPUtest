@@ -95,8 +95,8 @@ hr {
 }
 
 mark {
-  color: #000;
-  background: #ff0;
+    color: #000;
+    background: #ff0;
 }
 
 code,
@@ -4427,7 +4427,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #dddddd;
+  border-color: #ddddd;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -4501,14 +4501,26 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse {
-  background-color: #222222;
-  border-color: #080808;
+    background-color: #031634;
+    border-color: #031634;
 }
 
-.navbar-inverse .navbar-brand {
-  color: #999999;
+    .navbar-inverse .navbar-brand {
+        color: white;
+        font-family: 'PT_Sans-Narrow-Web-Bold';
+    }
+@font-face {
+    font-family: 'PT_Sans-Narrow-Web-Bold';
+    src: url('~/Content/Fonts/PT_Sans-Narrow-Web-Bold.ttf') format('truetype');
 }
-
+@font-face {
+    font-family: 'KumarOne-Regular';
+    src: url('~/Content/Fonts/KumarOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'CabinCondensed-Bold';
+    src: url('~/Content/Fonts/CabinCondensed-Bold.ttf') format('truetype');
+}
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
   color: #ffffff;
@@ -4519,9 +4531,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #999999;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-  color: #999999;
-}
+    .navbar-inverse .navbar-nav > li > a {
+        color: white;
+    }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -4544,13 +4556,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-toggle {
-  border-color: #333333;
+  border-color: white;
 }
 
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-  background-color: #333333;
-}
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: #031634;
+    }
 
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #ffffff;
